@@ -64,5 +64,13 @@ public class MessageWindows implements PulseConfig {
 
     private void DefaultHelpWindow(){
         if(!helpWindow.arrayList.isEmpty()) return;
+        helpWindow.arrayList.add("/punishment configs reload");
+        helpWindow.arrayList.add("/punishment configs reset");
+        helpWindow.arrayList.add("/punishment send <PunishmentType> <Target_PLAYER> <ExtraData> <Reason>");
+        helpWindow.arrayList.add("/punishment reports view");
+        helpWindow.arrayList.add("/punishment reports view <Target_PLAYER>");
+        helpWindow.arrayList.add("/punishment reports open <Report_ID>");
+        helpWindow.arrayList.add("/punishment reports flag <Report_ID>");
+        helpWindow.arrayList.add("/punishment reports delete <Report_ID>");
     }
 }

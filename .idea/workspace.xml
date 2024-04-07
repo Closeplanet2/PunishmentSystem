@@ -1,76 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="PunishmentSystem:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0894d6e5-f736-4005-8021-b8215a2d6bd9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/punishmentsystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/.idea/artifacts/punishmentsystem_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/punishmentsystem.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/API/PunishmentConfigAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/API/PunishmentSystemAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/API/ServerReportAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/BukkitRunnable/TempPunishmentRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/Configs/Configs/CurrentPlayerStates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/Configs/Configs/MessageWindows.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/Configs/Configs/PlayerPermissionsConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/Configs/Configs/PlayerState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/Configs/Configs/ServerMessagesConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/Configs/ServerReport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/Enum/PluginPermissions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/Enum/PunishmentType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/Enum/ServerMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/Events/EventLib.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/Events/ServerReportCreation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/Loop/PlayerActionLoop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/PlayerCommands/PunishmentCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/PulseVariableTest/PluginPermissionsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/PulseVariableTest/PunishmentTypeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/PulseVariableTest/ServerMessageTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/java/com/pandapulsestudios/punishmentsystem/PunishmentSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/src/main/resources/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/API/PunishmentConfigAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/API/PunishmentSystemAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/API/ServerReportAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/BukkitRunnable/TempPunishmentRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/Configs/Configs/CurrentPlayerStates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/Configs/Configs/MessageWindows.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/Configs/Configs/PlayerPermissionsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/Configs/Configs/PlayerState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/Configs/Configs/ServerMessagesConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/Configs/ServerReport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/Enum/PluginPermissions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/Enum/PunishmentType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/Enum/ServerMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/Events/EventLib.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/Events/ServerReportCreation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/Loop/PlayerActionLoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/PlayerCommands/PunishmentCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/PulseVariableTest/PluginPermissionsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/PulseVariableTest/PunishmentTypeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/PulseVariableTest/ServerMessageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/PunishmentSystem$API.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/com/pandapulsestudios/punishmentsystem/PunishmentSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PunishmentSystem/target/classes/plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pandapulsestudios/punishmentsystem/Configs/Configs/MessageWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pandapulsestudios/punishmentsystem/Configs/Configs/MessageWindows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pandapulsestudios/punishmentsystem/Events/EventLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pandapulsestudios/punishmentsystem/Events/EventLib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pandapulsestudios/punishmentsystem/PunishmentSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pandapulsestudios/punishmentsystem/PunishmentSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pandapulsestudios/punishmentsystem/Configs/Configs/MessageWindows.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pandapulsestudios/punishmentsystem/Configs/Configs/MessageWindows.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712466076875</updated>
-      <workItem from="1712466077863" duration="314000" />
+      <workItem from="1712466077863" duration="2212000" />
     </task>
     <servers />
   </component>

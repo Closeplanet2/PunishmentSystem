@@ -4,9 +4,11 @@ import com.pandapulsestudios.pulseconfig.APIS.ConfigAPI;
 import com.pandapulsestudios.pulseconfig.APIS.MongoAPI;
 import com.pandapulsestudios.pulseconfig.Interfaces.Mongo.PulseMongo;
 import com.pandapulsestudios.punishmentsystem.API.PunishmentConfigAPI;
+import com.pandapulsestudios.punishmentsystem.API.PunishmentSystemAPI;
 import com.pandapulsestudios.punishmentsystem.BukkitRunnable.TempPunishmentRunnable;
 import com.pandapulsestudios.punishmentsystem.Configs.Configs.*;
 import com.pandapulsestudios.punishmentsystem.Configs.ServerReport;
+import com.pandapulsestudios.punishmentsystem.Enum.PunishmentType;
 import org.bukkit.plugin.java.JavaPlugin;
 import com.pandapulsestudios.pulsecommands.PulseCommands;
 import com.pandapulsestudios.pulsecore.Java.ClassAPI;
@@ -31,6 +33,8 @@ public final class PunishmentSystem extends JavaPlugin {
         ClassAPI.RegisterClasses(this);
         PulseCommands.RegisterRaw(this);
         PunishmentConfigAPI.ResetConfigs();
+
+        PunishmentSystemAPI.AddPunishmentToTarget(admin, target, PunishmentType.MUTE, 0, "Report Message", true)
     }
 
     @Override

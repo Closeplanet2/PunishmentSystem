@@ -21,4 +21,9 @@ public class EventLib implements Listener {
         var messageToSendPlayer = PunishmentSystem.ServerMessagesConfig.GetStoredMessage(ServerMessage.YouAreMuted);
         ChatAPI.chatBuilder().messageType(MessageType.Player).playerToo(player).SendMessage(messageToSendPlayer);
     }
+
+    @EventHandler
+    public void ServerReportCreation(ServerReportCreation event){
+        event.setCancelled(true);
+    }
 }
