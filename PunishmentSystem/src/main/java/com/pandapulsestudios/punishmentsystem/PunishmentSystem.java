@@ -7,6 +7,8 @@ import com.pandapulsestudios.punishmentsystem.API.PunishmentConfigAPI;
 import com.pandapulsestudios.punishmentsystem.BukkitRunnable.TempPunishmentRunnable;
 import com.pandapulsestudios.punishmentsystem.Configs.Configs.*;
 import com.pandapulsestudios.punishmentsystem.Configs.ServerReport;
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 import com.pandapulsestudios.pulsecommands.PulseCommands;
 import com.pandapulsestudios.pulsecore.Java.ClassAPI;
@@ -32,6 +34,7 @@ public final class PunishmentSystem extends JavaPlugin {
         MongoAPI.setLevel(Level.SEVERE);
         MongoAPI.CreateConnection("mongodb+srv://admin:admin1234@rollerite.ul69f5s.mongodb.net/?retryWrites=true&w=majority&appName=Rollerite", "Rollerite");
         var api = new API();
+        Bukkit.getConsoleSender().sendMessage(ChatColor.YELLOW + api.api.toString());
 
         ClassAPI.RegisterClasses(this);
         PulseCommands.RegisterRaw(this);
