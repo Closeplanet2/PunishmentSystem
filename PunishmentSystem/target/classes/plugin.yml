@@ -1,0 +1,6 @@
+name: PunishmentSystem
+version: 1.0.1-a
+main: com.pandapulsestudios.punishmentsystem.PunishmentSystem
+authors: [Closeplanet2, PandaPulseStudios]
+depend: [PulseCore, PulseConfig, PulseCommands]
+api-version: 1.20
