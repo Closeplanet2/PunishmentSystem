@@ -1,0 +1,4 @@
+name: PunishmentSystem
+version: '${project.version}'
+main: com.pandapulsestudios.punishmentsystem.PunishmentSystem
+api-version: '1.20'

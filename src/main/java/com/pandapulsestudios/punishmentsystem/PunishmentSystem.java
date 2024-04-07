@@ -14,7 +14,6 @@ import com.pandapulsestudios.pulsecore.Java.ClassAPI;
 import java.util.ArrayList;
 import java.util.UUID;
 import java.util.logging.Level;
-
 public final class PunishmentSystem extends JavaPlugin {
 
     public static PunishmentSystem Instance;
@@ -29,10 +28,6 @@ public final class PunishmentSystem extends JavaPlugin {
     @Override
     public void onEnable() {
         Instance = this;
-        MongoAPI.setLevel(Level.SEVERE);
-        MongoAPI.CreateConnection("mongodb+srv://admin:admin1234@rollerite.ul69f5s.mongodb.net/?retryWrites=true&w=majority&appName=Rollerite", "Rollerite");
-        var api = new API();
-
         ClassAPI.RegisterClasses(this);
         PulseCommands.RegisterRaw(this);
         PunishmentConfigAPI.ResetConfigs();
@@ -41,19 +36,5 @@ public final class PunishmentSystem extends JavaPlugin {
     @Override
     public void onDisable() {
         for(var activeRunnable : tempPunishmentRunnables) activeRunnable.CancelEvent();
-    }
-
-    private static class API implements PulseMongo{
-        @Override
-        public String databaseName() { return "Rollerite"; }
-
-        @Override
-        public String documentID() { return "API"; }
-
-        public UUID api = UUID.randomUUID();
-
-        public API(){
-            MongoAPI.Load(this, false);
-        }
     }
 }
