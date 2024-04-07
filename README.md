@@ -18,7 +18,7 @@
 # Depend
 
 ```
-https://github.com/Closeplanet2/PulseConfig
 https://github.com/Closeplanet2/PulseCommands
+https://github.com/Closeplanet2/PulseConfig
 https://github.com/Closeplanet2/PulseCore
 ```
