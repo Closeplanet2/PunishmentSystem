@@ -12,6 +12,11 @@
       <option name="url" value="https://maven.pkg.github.com/closeplanet2/PulseCommands" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="github" />
+      <option name="name" value="github" />
+      <option name="url" value="https://maven.pkg.github.com/closeplanet2/SpawnKits" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="pulsecore" />
       <option name="name" value="pulsecore" />
       <option name="url" value="https://maven.pkg.github.com/closeplanet2/PulseCore" />
